@@ -23,7 +23,7 @@ windows:
         <% end %>
 ```
 
-If you frequently connect to new hosts and want to avoid specifying yes everytimes, you can add `-o StrictHostKeyChecking=no` to your ssh command. More info [here](https://unix.stackexchange.com/questions/33271/how-to-avoid-ssh-asking-permission)
+If you frequently connect to new hosts and want to avoid specifying yes everytime, you can add `-o StrictHostKeyChecking=no` to your ssh command. More info [here](https://unix.stackexchange.com/questions/33271/how-to-avoid-ssh-asking-permission)
 
 7. Create the below fish function
 ```
