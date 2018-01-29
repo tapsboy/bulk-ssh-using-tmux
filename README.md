@@ -5,11 +5,8 @@ Just a brief description of how I use tmux to ssh into multiple ec2 instances ru
 2. `brew install fish`
 3. `brew install jq`
 4. `brew install tmux`
-5. `gem install tmuxinator`. 
+5. `gem install tmuxinator`.  (If you don't like tmuxinator, you may try out [Teamocil](http://www.teamocil.com/) or [tmuxp](https://tmuxp.git-pull.com). However, the below code is based on tmuxinator yaml)
 6. Create the below tmuxinator file
-
-If you don't like tmuxinator, you may try out [Teamocil](http://www.teamocil.com/) or [tmuxp](https://tmuxp.git-pull.com). However, the below code is based on tmuxinator yaml
-
 
 ```
 # ~/.tmuxinator/dynamic-ssh.yml
